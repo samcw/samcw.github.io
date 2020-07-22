@@ -3,19 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
   <title>Samcw Website</title>
   <style>
     body {
       margin: 0;
       padding: 0;
-      height: 100vh;
-      overflow-y: hidden;
+      font-family: 'Varela Round', sans-serif;
+      display: flex;
+      justify-content: center;
+    }
+    .main {
+      width: 80%;
+      max-width: 600px;
+    }
+    .division {
+      width: 100%;
+      height: 1px;
+      background-color: #eae7e7;
+      margin: 8px 0 8px 0;
+    }
+    p {
+      font-size: 20px;
+      line-height: 30px;
+    }
+    p a {
+      text-decoration: none;
+      color: #795548;
     }
   </style>
 </head>
 <body>
-  <main>
-    you can find me at here.
-  </main>
+  <div class="main">
+    <h1>👋 Hello, welcome here.</h1>
+    <div class="division"></div>
+    <section class="about-me">
+      <h2>😯 About me</h2>
+      <p>
+        I am currently a master's degree student in computer science.And I live in Wuhan, China.
+      </p>
+      <p>
+        My research interests are applications of convolutional neural networks for target detection and computational volume optimization of models.
+      </p>
+      <p>
+        In my spare time, I'm also a front-end tech enthusiast as well as a Final Fantasy XIV player!
+      </p>
+    </section>
+    <section>
+      <h2>✉️ Contact me</h2>
+      <p>
+        I hava a <a href="https://github.com/samcw">github account</a>, you can see over there what technology I've been following lately.
+      </p>
+      <p>
+        And if you speak Chinses, you can find me at <a href="https://www.zhihu.com/people/histo_o">知乎</a>, of course at <a href="https://weibo.com/u/5645270312/home">微博</a>.
+      </p>
+      <p>
+        Another way to get in touch with me is through my email address at <a href="mailto:tsukihi@gmail.com">Tsukihi@gmail.com</a>.
+      </p>
+    </section>
+  </div>
 </body>
 </html>
